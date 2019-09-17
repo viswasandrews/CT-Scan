@@ -1,0 +1,7 @@
+# Import ImageIO
+import imageio
+im = imageio.imread('chest-220.dcm')
+
+# Print the available metadata fields
+print(im.meta.keys())
+% Get the im.meta['Keyword' %
